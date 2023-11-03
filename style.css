@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.text-container {
+  font-family: "raleway";
+  position: absolute;
+  width: 839px;
+  height: 486px;
+  top: 96px;
+  left: 242px;
+}
+
+.text-container h1 {
+  font-weight: bold;
+  font-size: 128px;
+  line-height: 110%;
+}
+
+.text-container h2 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 74px;
+  line-height: 110%;
+}
+
+.text-container p {
+  font-weight: 500;
+  font-size: 39px;
+  color: #393939;
+  line-height: 140%;
+}
+
+.rect-grey {
+  position: absolute;
+  width: 100vw;
+  height: 300px;
+  top: 698px;
+  left: 0;
+  background-color: #b3bec5;
+}
+
+.rect-lightgrey {
+  background-color: #dbe1e4;
+  position: absolute;
+  width: 457px;
+  height: 948px;
+  left: 1246px;
+  top: 197px;
+  border-radius: 70px;
+  box-shadow: -30px 30px 4px rgba(0, 0, 0, 0.25);
+}
